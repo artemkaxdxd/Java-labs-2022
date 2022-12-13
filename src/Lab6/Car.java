@@ -8,11 +8,11 @@ public class Car {
 
     private final int speedKmPerH;
 
-    public Car() {
-        this.model = "model";
-        this.petrolPer100Km = 0;
-        this.price = 0;
-        this.speedKmPerH = 0;
+    public Car(String model, int petrolPer100Km, int price, int speedKmPerH) {
+        this.model = model;
+        this.petrolPer100Km = petrolPer100Km;
+        this.price = price;
+        this.speedKmPerH = speedKmPerH;
     }
 
     public String getModel() {
